@@ -15,7 +15,7 @@ export const Form = (props) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(inputs);
+    alert('Handle submit');
   };
 
   return (

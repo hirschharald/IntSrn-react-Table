@@ -9,29 +9,6 @@ export const Navigation = (props) => {
   return (
     <>
       <Nav
-        className="justify-content-end"
-        style={{ backgroundColor: "#e62020" }}
-        activeKey="/home"
-        onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
-      >
-        <Nav.Item>
-          <Nav.Link style={{ color: "#fff" }} href="/home">
-            Active
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link style={{ color: "#fff" }} eventKey="link-1">
-            Link
-          </Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link style={{ color: "#fff" }} eventKey="link-2">
-            Link
-          </Nav.Link>
-        </Nav.Item>
-      </Nav>
-
-      <Nav
         style={{ backgroundColor: "#e62020" }}
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       >
