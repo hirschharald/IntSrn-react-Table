@@ -35,7 +35,6 @@ const Table = () => {
   };
   return (
     <Container>
-      <div className="h4"> Clear search bar and filter</div>
       <ToolkitProvider keyField="id" data={products} columns={columns} search>
         {(props) => (
           <div>
